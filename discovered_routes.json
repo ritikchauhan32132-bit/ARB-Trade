@@ -1,0 +1,386 @@
+[
+  {
+    "path": "/",
+    "name": ""
+  },
+  {
+    "path": "/order/index",
+    "name": ""
+  },
+  {
+    "path": "/order/cancel",
+    "name": ""
+  },
+  {
+    "path": "/home",
+    "name": "Home"
+  },
+  {
+    "path": "/task",
+    "name": "Task"
+  },
+  {
+    "path": "/order",
+    "name": "Order"
+  },
+  {
+    "path": "/main",
+    "name": "Main"
+  },
+  {
+    "path": "/grap",
+    "name": ""
+  },
+  {
+    "path": "/home/buy",
+    "name": "HomeBuy"
+  },
+  {
+    "path": "/sell",
+    "name": "Sell"
+  },
+  {
+    "path": "/main/verified",
+    "name": "Verified"
+  },
+  {
+    "path": "/main/approve",
+    "name": "Approve"
+  },
+  {
+    "path": "/disable",
+    "name": "Disable"
+  },
+  {
+    "path": "/activaRules",
+    "name": "ActivaRules"
+  },
+  {
+    "path": "/tradRules",
+    "name": "TradRules"
+  },
+  {
+    "path": "/pay",
+    "name": "Pay"
+  },
+  {
+    "path": "/wallet",
+    "name": "Wallet"
+  },
+  {
+    "path": "/main/collection",
+    "name": "Collection"
+  },
+  {
+    "path": "/main/addCollection",
+    "name": "AddCollection"
+  },
+  {
+    "path": "/main/addBank",
+    "name": "AddBank"
+  },
+  {
+    "path": "/main/paymentPwd",
+    "name": "PaymentPwd"
+  },
+  {
+    "path": "/main/safety",
+    "name": "Ssafety"
+  },
+  {
+    "path": "/main/explain",
+    "name": "Explain"
+  },
+  {
+    "path": "/main/transaction",
+    "name": "Transaction"
+  },
+  {
+    "path": "/main/notice",
+    "name": "Notice"
+  },
+  {
+    "path": "/main/buyTutorial",
+    "name": "BuyTutorial"
+  },
+  {
+    "path": "/main/sellTutorial",
+    "name": "SellTutorial"
+  },
+  {
+    "path": "/main/seting",
+    "name": "Seting"
+  },
+  {
+    "path": "/main/seting/avatar",
+    "name": "Avatar"
+  },
+  {
+    "path": "/main/seting/nickname",
+    "name": "Nickname"
+  },
+  {
+    "path": "/main/bindphone",
+    "name": "Bindphone"
+  },
+  {
+    "path": "/main/bindemail",
+    "name": "Bindemail"
+  },
+  {
+    "path": "/main/server",
+    "name": "Server"
+  },
+  {
+    "path": "/main/lang",
+    "name": "Lang"
+  },
+  {
+    "path": "/main/announcement",
+    "name": "Announcement"
+  },
+  {
+    "path": "/main/announcementD",
+    "name": "AnnouncementD"
+  },
+  {
+    "path": "/order/detail",
+    "name": "Detail"
+  },
+  {
+    "path": "/buy/rule/:id",
+    "name": "Rule"
+  },
+  {
+    "path": "/buy/arb",
+    "name": "Arb"
+  },
+  {
+    "path": "/buy/recharge",
+    "name": "BuyRecharge"
+  },
+  {
+    "path": "/buy/usdtRecord",
+    "name": "UsdtRecord"
+  },
+  {
+    "path": "/order/cashier",
+    "name": "ArbCashier"
+  },
+  {
+    "path": "/sell/sellOut",
+    "name": "SellOut"
+  },
+  {
+    "path": "/sell/details",
+    "name": "Details"
+  },
+  {
+    "path": "/order/wrongAmount",
+    "name": "WrongAmount"
+  },
+  {
+    "path": "/order/appeal",
+    "name": "Appeal"
+  },
+  {
+    "path": "/sell/appealInfo",
+    "name": "AppealInfo"
+  },
+  {
+    "path": "/sell/confirmArrival",
+    "name": "ConfirmArrival"
+  },
+  {
+    "path": "/sell/cancel",
+    "name": "SellCancel"
+  },
+  {
+    "path": "/task/details",
+    "name": "TaskDetails"
+  },
+  {
+    "path": "/task/sell",
+    "name": "TaskSell"
+  },
+  {
+    "path": "/task/buy",
+    "name": "TaskBuy"
+  },
+  {
+    "path": "/task/vip",
+    "name": "TaskVip"
+  },
+  {
+    "path": "/task/rule",
+    "name": "TaskRule"
+  },
+  {
+    "path": "/register",
+    "name": "Register"
+  },
+  {
+    "path": "/forgot",
+    "name": "Forgot"
+  },
+  {
+    "path": "/userAgreement",
+    "name": "UserAgreement"
+  },
+  {
+    "path": "/buyLoad",
+    "name": "BuyLoad"
+  },
+  {
+    "path": "/main/kyc",
+    "name": "Kyc"
+  },
+  {
+    "path": "/main/kyc/add",
+    "name": "KycAdd"
+  },
+  {
+    "path": "/main/kyc/link",
+    "name": "KycLink"
+  },
+  {
+    "path": "/main/addKyc",
+    "name": "AddKyc"
+  },
+  {
+    "path": "/order/kycAppeal",
+    "name": "KycAppeal"
+  },
+  {
+    "path": "/main/team",
+    "name": "team"
+  },
+  {
+    "path": "/usdt/add",
+    "name": "UsdtAdd"
+  },
+  {
+    "path": "/usdt/recharge",
+    "name": "UsdtRecharge"
+  },
+  {
+    "path": "/usdt/recharge/record",
+    "name": "UsdtRechargeRecord"
+  },
+  {
+    "path": "/usdt/recharge/success",
+    "name": "UsdtRechargeSuccess"
+  },
+  {
+    "path": "/usdt/payment",
+    "name": "UsdtPayment"
+  },
+  {
+    "path": "/usdt/wthdrawal",
+    "name": "UsdtWthdrawal"
+  },
+  {
+    "path": "/usdt/wthdrawal/audit",
+    "name": "UsdtAudit"
+  },
+  {
+    "path": "/usdt/wthdrawal/record",
+    "name": "UsdtWthdrawalRecord"
+  },
+  {
+    "path": "/usdt/detail",
+    "name": "UstdDetail"
+  },
+  {
+    "path": "/main/activity",
+    "name": "Activity"
+  },
+  {
+    "path": "/main/activity/detail",
+    "name": "ActivityDetail"
+  },
+  {
+    "path": "/order/confirmation",
+    "name": "Confirmation"
+  },
+  {
+    "path": "/main/team/tutorial",
+    "name": "Tutorial"
+  },
+  {
+    "path": "/task/apply/:id",
+    "name": "TaskApply"
+  },
+  {
+    "path": "/task/userLevel",
+    "name": "TaskUserLevel"
+  },
+  {
+    "path": "/main/vipTutorial",
+    "name": "VipTutorial"
+  },
+  {
+    "path": "/main/securityCenter",
+    "name": "SecurityCenter"
+  },
+  {
+    "path": "/main/password",
+    "name": "MainPassword"
+  },
+  {
+    "path": "/sell/unban",
+    "name": "SellUnban"
+  },
+  {
+    "path": "/main/teamTutorial",
+    "name": "MainTeamTutorial"
+  },
+  {
+    "path": "/upi",
+    "name": "MerchantUpi"
+  },
+  {
+    "path": "/promotion",
+    "name": "MerchantPromotion"
+  },
+  {
+    "path": "/payment",
+    "name": "Payment"
+  },
+  {
+    "path": "/helpCenter",
+    "name": "HelpCenter"
+  },
+  {
+    "path": "/helpCenter/submit",
+    "name": "HelpCenterSubmit"
+  },
+  {
+    "path": "/helpCenter/progress",
+    "name": "HelpCenterProgress"
+  },
+  {
+    "path": "/helpCenter/buy",
+    "name": "HelpCenterBuy"
+  },
+  {
+    "path": "/helpCenter/sell",
+    "name": "HelpCenterSell"
+  },
+  {
+    "path": "/main/rewardsCardPage",
+    "name": "rewardsCardPage"
+  },
+  {
+    "path": "/sell/upiBan",
+    "name": "sellUpiBan"
+  },
+  {
+    "path": "/main/noapprove",
+    "name": "mainNoApprove"
+  },
+  {
+    "path": "/login",
+    "name": "Login"
+  }
+]

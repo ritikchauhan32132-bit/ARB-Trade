@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-yellow: #FAC10C;
+  --brand-gold: #F5BA00;
+  --brand-dark: #1F262F;
+  --brand-darker: #12161C;
+  --brand-bg: #F7F8FA;
+  --brand-surface: #FFFFFF;
+  --brand-text: #1F262F;
+  --brand-muted: #8E9AA8;
+  --brand-border: #EBEDF0;
+  --brand-card-bg: #FFFFFF;
+  --brand-success: #07C160;
+  --brand-danger: #EE0A24;
+}
+
+body {
+  background-color: #12161C;
+  color: #1F262F;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+/* Mobile-First App Wrapper */
+.app-container {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #F7F8FA;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+}
+
+/* Glassmorphic Cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #FAC10C 0%, #F5BA00 50%, #FF976A 100%);
+}
+
+.dark-gradient-card {
+  background: linear-gradient(145deg, #1F262F 0%, #161B22 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D3D4D9;
+  border-radius: 4px;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(250, 193, 12, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(250, 193, 12, 0.8);
+  }
+}
+
+.glow-active {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
